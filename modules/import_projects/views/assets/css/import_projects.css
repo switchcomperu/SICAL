@@ -1,0 +1,181 @@
+/* ==========================================
+   ESTILOS GENERALES DEL MÓDULO
+   ========================================== */
+
+/* Estructura básica */
+.import-projects-container {
+    padding: 20px;
+}
+
+.import-projects-panel {
+    margin-top: 20px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* ==========================================
+   COMPONENTES DE TABLAS
+   ========================================== */
+
+/* Estilos base para tablas */
+.import-projects-table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+.import-projects-table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+    text-align: left;
+    padding: 12px 15px;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.import-projects-table td {
+    padding: 10px 15px;
+    border-bottom: 1px solid #dee2e6;
+    vertical-align: middle;
+}
+
+/* Estados de filas */
+.import-projects-table tr.danger td {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.import-projects-table tr.warning td {
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+}
+
+.import-projects-table tr.success td {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+.import-projects-table tr.info td {
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+}
+
+/* ==========================================
+   COMPONENTES DE FORMULARIOS
+   ========================================== */
+
+.import-form {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.import-form .form-group {
+    margin-bottom: 20px;
+}
+
+.file-input-group {
+    display: flex;
+}
+
+.file-input-group .btn-file-preview {
+    border-radius: 0 4px 4px 0;
+    border-left: 0;
+}
+
+/* ==========================================
+   COMPONENTES DE BOTONES
+   ========================================== */
+
+.btn-import-action {
+    margin-right: 8px;
+    min-width: 100px;
+}
+
+.btn-import-primary {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-import-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-import-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+/* ==========================================
+   COMPONENTES DE ESTADO
+   ========================================== */
+
+.status-badge {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.status-badge.success {
+    background-color: #28a745;
+    color: white;
+}
+
+.status-badge.danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.status-badge.warning {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.status-badge.info {
+    background-color: #17a2b8;
+    color: white;
+}
+
+/* ==========================================
+   UTILIDADES
+   ========================================== */
+
+.block {
+    display: block;
+}
+
+.text-success {
+    color: #28a745;
+}
+
+.text-danger {
+    color: #dc3545;
+}
+
+.text-warning {
+    color: #ffc107;
+}
+
+.text-info {
+    color: #17a2b8;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.mr-2 {
+    margin-right: 8px;
+}
+
+/* Responsividad para tablas */
+@media (max-width: 768px) {
+    .import-projects-table {
+        display: block;
+        overflow-x: auto;
+    }
+}
